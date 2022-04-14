@@ -1,9 +1,6 @@
-
 // import * as weather from "./fxwrapper/weather/weather.js";
 import {updateWeather} from "./fxwrapper/weather/weather.js";
 import { WeatherSyncLayer } from "./controls/weatherLayer.js";
-
-import * as soundsMain from "./sounds/soundsMain.js";
 
 Hooks.on('simple-calendar-date-time-change', (data) => {    
     update(data);
